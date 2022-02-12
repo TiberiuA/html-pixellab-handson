@@ -17,25 +17,60 @@
 
 <body>
   <form>
-    <!-- alte campuri -->
-
+    <label for="name">Nume*</label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      placeholder="Nume"
+      minlength="5"
+      maxlength="30"
+      title="Aici iti adaugi numele tau de scena"
+      required
+    >
+    <br><br>
+    <label for="surname">Prenume*</label>
+    <input
+      type="text"
+      name="surname"
+      id="surname"
+      placeholder="Prenume"
+      minlength="5"
+      maxlength="30"
+      title="Adauga o prostie aici dupa ce rezolvi problema. O prostie"
+      required
+    >
+    <br><br>
     <label for="message">Mesaj*</label>
+    <br>
     <textarea
       name="message"
       id="message"
       cols="30"
       rows="4"
       placeholder="Mesaj"
+      title="Aici vei pune mesajul tau pe care nu-l vom citi."
       required
     ></textarea>
+    <br><br>
+    <label for="details">Detalii:</label>
+    <br>
+    <textarea
+      name="details"
+      id="details"
+      cols="30"
+      rows="8"
+      placeholder="Detalii"
+      title="Aici adaugi toate detaliile insignifiante pe care nu le vom citi."
+    >
+    </textarea>
+    <br><br>
+    <button
+      type="submit"
+      name="submit"
+      title="Trimite toate ineptiile pe care le-ai scris mai sus."
+    > Go</button>
   </form>
-
-  <button
-    type="submit"
-  >  Go</button>
-
-
-
 
   <div
     class="pixeltab-host"
