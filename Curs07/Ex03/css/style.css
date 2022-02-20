@@ -12,17 +12,25 @@ body {
 
 .box-1 {
   background-color: aquamarine;
+  border: 5px solid green;
+  color: purple;
 }
+
+/* Eu ma gandam ca mai bine pun color pe un selector mai specific,
+de genul p .box-1, dar nu m-a lasat pixeltab-ul */
 
 .box-2 {
   background-color: brown;
+  border: 5px solid gray;
+  color: white;
+}
+
+p .box-2 {
+  color: white;
 }
 
 .box-3 {
   background-color: bisque;
-}
-
-.box-1 {
-  color: purple;
-  border: 1px solid green;
+  border: 5px solid blue;
+  color: red;
 }
