@@ -25,126 +25,132 @@
 <body>
   <header class="header">
     <section class="header-top">
-      <section class="header-social">
-        <ul>
-          <li>
+      <section class="header-connect">
+
+        <section class="header-social">
+          <ul>
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="YouTube"
+              >
+                <i class="fa-brands fa-youtube-square"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Twitter"
+              >
+                <i class="fa-brands fa-twitter-square"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Facebook"
+              >
+                <i class="fa-brands fa-facebook-square"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Pinterest"
+              >
+                <i class="fa-brands fa-pinterest-square"></i>
+              </a>
+            </li>
+          </ul>
+
+        </section>
+        <!-- /.header-social -->
+
+        <section class="header-contact">
+          <p>
             <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="YouTube"
+              href="tel:+44 (0)10 2345 6789"
+              title="Call us NOW for good looking men with watches"
             >
-              <i class="fa-brands fa-youtube-square"></i>
+              <i class="fa-solid fa-square-phone"></i>
+              CALL US +44 (0)10 2345 6789
             </a>
-          </li>
-
-          <li>
-            <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Twitter"
-            >
-              <i class="fa-brands fa-twitter-square"></i>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Facebook"
-            >
-              <i class="fa-brands fa-facebook-square"></i>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="http://"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Pinterest"
-            >
-              <i class="fa-brands fa-pinterest-square"></i>
-            </a>
-          </li>
-        </ul>
-
-      </section>
-      <!-- /.header-social -->
-
-      <section class="header-phone">
-        <p>
-          <a
-            href="tel:+44 (0)10 2345 6789"
-            title="Call us NOW for good looking men with watches"
-          >
-            <i class="fa-solid fa-square-phone"></i>
-            CALL US +44 (0)10 2345 6789
-          </a>
-        </p>
-      </section>
-      <!-- /.header-phone -->
-      <!-- chiar daca sunt apropiate, am decis sa separ header-social de header-phone
+          </p>
+        </section>
+        <!-- /.header-contact -->
+        <!-- chiar daca sunt apropiate, am decis sa separ header-social de header-phone
       pentru ca indeplinesc doua scopuri diferite in structura site-ului -->
+      </section> <!-- /.header-connect -->
 
-      <section class="header-search">
-        <form
-          action=""
-          method="get"
-        >
-          <button
-            for="search"
-            title="Press here to search for men!"
-          ><i class="fa-brands fa-searchengin"></i>
-          </button>
-          <input
-            type="search"
-            name="search"
-            id="search"
-            placeholder="Search"
+      <section class="header-controls">
+        <section class="header-search">
+          <form
+            action=""
+            method="get"
           >
-        </form>
+            <button
+              for="search"
+              title="Press here to search for men!"
+            ><i class="fa-brands fa-searchengin"></i>
+            </button>
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search"
+            >
+          </form>
+        </section>
+        <!-- /.header-search -->
+        <!-- am luat decizia ca mai sus -->
+
+        <section class="header-user-functions">
+          <ul>
+            <li>
+              <a
+                href=""
+                titl="My Profile"
+                id="header-my-profile"
+              >
+                <i class="fa-solid fa-person-booth"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href=""
+                titl="Wishlist"
+                id="header-wishlist"
+              >
+                <i class="fa-solid fa-heart-crack"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href=""
+                titl="Shopping cart"
+                id="header-shopping-cart"
+              >
+                <i class="fa-solid fa-handshake"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <!-- /.header-user-functions -->
       </section>
-      <!-- /.header-search -->
-      <!-- am luat decizia ca mai sus -->
-
-      <section class="header-user-actions">
-        <ul>
-          <li>
-            <a
-              href=""
-              titl="My Profile"
-              id="header-my-profile"
-            >
-              <i class="fa-solid fa-person-booth"></i>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href=""
-              titl="Wishlist"
-              id="header-wishlist"
-            >
-              <i class="fa-solid fa-heart-crack"></i>
-            </a>
-          </li>
-
-          <li>
-            <a
-              href=""
-              titl="Shopping cart"
-              id="header-shopping-cart"
-            >
-              <i class="fa-solid fa-handshake"></i>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <!-- /.header-user-functions -->
+      <!-- /.header-controls -->
     </section>
     <!-- /.header-top -->
 
@@ -216,13 +222,13 @@
   <!-- /.header -->
 
   <main class="content">
-    <section class="new-products">
-      <header class="new-products-header">
+    <section class="home-catalog-preview">
+      <header>
         <h1>
           New stuff
         </h1>
       </header>
-      <!-- /.new-products-header -->
+
       <section class="product-tiles">
         <article class="product-tile">
           <div class="product-tile-image">
@@ -232,9 +238,9 @@
                 title="Circle completly black watch"
               >
                 <img
-                  src="/Monochrome/images/circle-completly-black.png"
+                  src="./images/circle-completly-black.png"
                   alt="Circle completly black watch"
-                >
+                >s
               </a>
             </picture>
           </div>
@@ -273,7 +279,7 @@
                 title="Circle with white branches watch"
               >
                 <img
-                  src="/Monochrome/images/circle-with-with-branches.png"
+                  src="./images/circle-with-with-branches.png"
                   alt="Circle with white branches watch"
                 >
               </a>
@@ -312,7 +318,7 @@
                 title="Circle more gray then black watch"
               >
                 <img
-                  src="/Monochrome/images/circle-more gray then black.png"
+                  src="./images/circle-more gray then black.png"
                   alt="Circle more gray then black watch"
                 >
               </a>
@@ -351,7 +357,7 @@
                 title="Square white watch"
               >
                 <img
-                  src="/Monochrome/images/square-white.png"
+                  src="./images/square-white.png"
                   alt="Square white watch"
                 >
               </a>
@@ -384,15 +390,16 @@
       </section>
       <!-- /.product-tiles -->
     </section>
-    <!-- /.new-products -->
+    <!-- /.home-catalog-preview -->
 
-    <section class="loved-products">
-      <header class="loved-products-header">
+    <section class="home-catalog-preview">
+
+      <header>
         <h1>
           Most loved
         </h1>
       </header>
-      <!-- /.loved-products-header -->
+
       <section class="product-tiles">
         <article class="product-tile">
           <div class="product-tile-image">
@@ -402,7 +409,7 @@
                 title="Square white watch"
               >
                 <img
-                  src="/Monochrome/images/square-white.png"
+                  src="./images/square-white.png"
                   alt="Square white watch"
                 >
               </a>
@@ -443,7 +450,7 @@
                 title="Circle completly black watch"
               >
                 <img
-                  src="/Monochrome/images/circle-completly-black.png"
+                  src="./images/circle-completly-black.png"
                   alt="Circle completly black watch"
                 >
               </a>
@@ -482,7 +489,7 @@
                 title="Circle more gray then black watch"
               >
                 <img
-                  src="/Monochrome/images/circle-more gray then black.png"
+                  src="./images/circle-more gray then black.png"
                   alt="Circle more gray then black watch"
                 >
               </a>
@@ -521,7 +528,7 @@
                 title="Circle four circles white watch"
               >
                 <img
-                  src="/Monochrome/images/circle-four-circles-white.png"
+                  src="./images/circle-four-circles-white.png"
                   alt="Circle four circles white watch"
                 >
               </a>
@@ -554,16 +561,17 @@
       </section>
       <!-- /.product-tiles -->
     </section>
-    <!-- /.loved-products -->
+    <!-- /.home-catalog-preview -->
 
-    <section class="info-section">
-      <header class="info-section-header">
-        <h1>Watches for entrepreneurs</h1>
+    <section class="home-about">
+      <header class="home-about-header">
+        <span>
+          <h1>Watches for entrepreneurs</h1>
         </span>
       </header>
-      <!-- /.info-section-header -->
+      <!-- /.home-about -->
 
-      <section class="info-section-body">
+      <section class="home-about-body">
         <p>
           But I must explain to you how all this mistaken idea of denouncing
           pleasure and praising pain was born and I
@@ -582,27 +590,26 @@
           No one rejects, dislikes, or avoids pleasure itself, because.
         </p>
       </section>
-      <!-- /.info-section-body -->
+      <!-- /.home-about-body -->
 
-      <footer class="info-section-picture">
+      <aside class="home-about-picture">
         <picture>
           <img
-            src="/Monochrome/images/watches-for-antrepreneours-.png"
+            src="./images/watches-for-antrepreneours-.png"
             alt="Image of desktop with allot of black gadgets including ourblack watch"
           >
         </picture>
-      </footer>
-      <!-- /.info-section-picture -->
+      </aside>
+      <!-- /.home-about-picture -->
     </section>
-    <!-- /.info-section-->
+    <!-- /.home-about-->
 
-    <section class="men-products">
-      <header class="men-products-header">
+    <section class="home-catalog-preview">
+      <header>
         <h1>
           Men's
         </h1>
       </header>
-      <!-- /.men-products-header -->
 
       <section class="product-tiles">
         <article class="product-tile">
@@ -613,7 +620,7 @@
                 title="Circle four circles white watch"
               >
                 <img
-                  src="/Monochrome/images/circle-four-circles-white.png"
+                  src="./images/circle-four-circles-white.png"
                   alt="Circle four circles white watc"
                 >
               </a>
@@ -654,7 +661,7 @@
                 title="Circle more gray then black watch"
               >
                 <img
-                  src="/Monochrome/images/circle-more gray then black.png"
+                  src="./images/circle-more gray then black.png"
                   alt="Circle more gray then black watch"
                 >
               </a>
@@ -693,7 +700,7 @@
                 title="Circle sport black watch"
               >
                 <img
-                  src="/Monochrome/images/circle-sport-black.png"
+                  src="./images/circle-sport-black.png"
                   alt="Circle sport black watch"
                 >
               </a>
@@ -732,7 +739,7 @@
                 title="Circle completly black watch"
               >
                 <img
-                  src="/Monochrome/images/circle-completly-black.png"
+                  src="./images/circle-completly-black.png"
                   alt="Circle completly black watch"
                 >
               </a>
@@ -765,22 +772,22 @@
       </section>
       <!-- /.product-tiles -->
 
-      <footer class="men-products-footer">
+      <footer class="home-catalog-preview-footer">
         <button class="view-all-cta">
           View all
         </button>
       </footer>
-      <!-- /.men-products-footer -->
+      <!-- /.home-catalog-preview-footer -->
     </section>
-    <!-- /.men-products -->
+    <!-- /.home-catalog-preview -->
 
-    <section class="women-products">
-      <header class="new-products-header">
+    <section class="home-catalog-preview">
+      <header>
         <h1>
           Women's
         </h1>
       </header>
-      <!-- /.new-products-header -->
+
       <section class="product-tiles">
         <article class="product-tile">
           <div class="product-tile-image">
@@ -790,7 +797,7 @@
                 title="Square white watch"
               >
                 <img
-                  src="/Monochrome/images/square-white.png"
+                  src="./images/square-white.png"
                   alt="Square white watch"
                 >
               </a>
@@ -831,7 +838,7 @@
                 title="Circle completly black watch"
               >
                 <img
-                  src="/Monochrome/images/circle-completly-black.png"
+                  src="./images/circle-completly-black.png"
                   alt="Circle completly black watch"
                 >
               </a>
@@ -870,7 +877,7 @@
                 title="Circle white with branches watch"
               >
                 <img
-                  src="/Monochrome/images/circle-with-with-branches.png"
+                  src="./images/circle-with-with-branches.png"
                   alt="Circle white with branches watch"
                 >
               </a>
@@ -909,7 +916,7 @@
                 title="Circle four circles black watch"
               >
                 <img
-                  src="/Monochrome/images/circle-four-circles-black.png"
+                  src="./images/circle-four-circles-black.png"
                   alt="Circle four circles black watch"
                 >
               </a>
@@ -942,15 +949,15 @@
       </section>
       <!-- /.product-tiles -->
 
-      <footer class="women-products-footer">
+      <footer class="home-catalog-preview-footer">
         <button class="view-all-cta">
           View all
         </button>
-        <!-- /.women-products-footer -->
+        <!-- /.home-catalog-preview-footer -->
       </footer>
     </section>
     </section>
-    <!-- /.women-products -->
+    <!-- /.home-catalog-preview -->
   </main>
   <!-- /.content -->
   <!-- /.am ales sa nu fac header - main - footer pentru aceasta sectiune
@@ -1057,84 +1064,87 @@ considerandu-le la egalitate, nu le-am clasat pe structura respectiva-->
     </nav>
     <!-- /.footer-nav -->
 
-    <section class="newsletter-subscription">
-      <form
-        action=""
-        method="put"
-      >
-        <p>
-          <label for="newsletter-subscription-form">
-            sign up for our newsletter</label>
-        </p>
+    <section class="footer-connect">
+      <section class="newsletter-subscription">
+        <form
+          action=""
+          method="put"
+        >
+          <p>
+            <label for="newsletter-subscription-form">
+              sign up for our newsletter</label>
+          </p>
 
-        <p>
-          <input
-            type="email"
-            name="newsletter-subscription"
-            id="newsletter-subscription-form"
-            title="enter your email here so you'll never hear the end of us"
-            placeholder="your@email.here"
-          >
-        </p>
+          <p>
+            <input
+              type="email"
+              name="newsletter-subscription"
+              id="newsletter-subscription-form"
+              title="enter your email here so you'll never hear the end of us"
+              placeholder="your@email.here"
+            >
+          </p>
 
-        <p>
-          <button for="newsletter-subscription-form">
-            <span>submit</span>
-          </button>
-        </p>
-      </form>
+          <p>
+            <button for="newsletter-subscription-form">
+              <span>submit</span>
+            </button>
+          </p>
+        </form>
+      </section>
+      <!-- /.newsletter-subscription-form -->
+
+      <section class="footer-social">
+        <ul>
+          <li>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="YouTube"
+            >
+              <i class="fa-brands fa-youtube-square"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Twitter"
+            >
+              <i class="fa-brands fa-twitter-square"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Facebook"
+            >
+              <i class="fa-brands fa-facebook-square"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Pinterest"
+            >
+              <i class="fa-brands fa-pinterest-square"></i>
+            </a>
+          </li>
+        </ul>
+
+      </section>
+      <!-- /.footer-social -->
     </section>
-    <!-- /.newsletter-subscription-form -->
-
-    <section class="footer-social">
-      <ul>
-        <li>
-          <a
-            href="http://"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="YouTube"
-          >
-            <i class="fa-brands fa-youtube-square"></i>
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="http://"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Twitter"
-          >
-            <i class="fa-brands fa-twitter-square"></i>
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="http://"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Facebook"
-          >
-            <i class="fa-brands fa-facebook-square"></i>
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="http://"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Pinterest"
-          >
-            <i class="fa-brands fa-pinterest-square"></i>
-          </a>
-        </li>
-      </ul>
-
-    </section>
-    <!-- /.footer-social -->
+    <!-- /.footer-connect -->
   </footer>
   <!-- /.footer -->
 </body>
