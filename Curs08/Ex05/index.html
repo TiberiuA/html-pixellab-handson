@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <nav>
+  <nav class="nav-bottom">
     <a
       href="#pythagora"
       title="Teoria lui Pitagora"
@@ -33,16 +33,36 @@
       title="Suma patratelor"
     >Suma patratelor</a>
   </nav>
+
+  <nav class="nav-top">
+    <a
+      href="#pythagora"
+      title="Teoria lui Pitagora"
+    >Teoria lui Pitagora</a>
+    <a
+      href="#circle"
+      title="Suprafata Cercului"
+    >Suprafata Cercului</a>
+    <a
+      href="#squares"
+      title="Suma patratelor"
+    >Suma patratelor</a>
+  </nav>
+
   <div
     class="container"
     id="pythagora"
   >
     <p>
+      <span class="legend">Pitagora</span>
+    </p>
+    <p>
       Teoria lui Pitagora este fundamentala in geometria euclidiana.<br>
       Aceasta sustine ca suma patratelor laturilor unui triunghi este egala cu patratul ipotenuzei.<br>
-      Formula sa este: a2+b2=c2.
+      Formula sa este: a<span class="sup">2</span>2+b<span class="sup">2</span>=c<span class="sup">2</span>.
     </p>
   </div>
+
 
   <p>
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -114,9 +134,11 @@
     id="circle"
   >
     <p>
-      Suprafata cercului se calculeaza stiind raza acestuia si valoarea lui π.<br>
-      Formula sa este πr2.
+      <span class="legend">Cerc</span>
     </p>
+    <p>
+      Suprafata cercului se calculeaza stiind raza acestuia si valoarea lui π.<br>
+      Formula sa este πr<span class="sup">2</span>
   </div>
 
   <p>
@@ -189,8 +211,11 @@
     id="squares"
   >
     <p>
+      <span class="legend">Patrate</span>
+    </p>
+    <p>
       Suma a doua patrate se calculeaza folosind urmatoarea formula:<br>
-      A2+B2=(A+B)2 - 2AB
+      A<span class="sup">2</span>+B<span class="sup">2</span>=(A+B)<span class="sup">2</span> - 2AB
     </p>
   </div>
 

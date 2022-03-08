@@ -1,0 +1,29 @@
+.my-div {
+  width: 300px;
+  height: 202px;
+  background-color: red;
+  border: 1px solid green;
+  box-shadow: 1px 1px 5px green;
+}
+
+/* nu inteleg de ce nu vrea sa fie oky asta
+zice ca nu are inaltimea de 202px */
+
+.blue {
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: blue;
+  padding: 15px;
+  box-shadow: inset 2px 2px 10px black;
+}
+
+.container {
+  width: 75%;
+  border: 3px solid green;
+  padding: 15px;
+  box-shadow: 3px 3px 2px blue;
+}
+
+/* nu vrea sa ia nici bordura in pixeltab
+este exact pe specificatii */
